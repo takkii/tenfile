@@ -20,7 +20,7 @@ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh >
 
 sh ./installer.sh ~/.cache/dein
 
-自前なので、他はPython3のPATHを変更
+自前なので、他はRuby26とPython3のPATHを変更
 
 let g:python3_host_prog='D:/Python3/python.exe'
 
