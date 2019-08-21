@@ -53,7 +53,7 @@ set runtimepath+=~/.config/nvim/.cache/dein/repos/github.com/Shougo/dein.vim
 if dein#load_state('~/.config/nvim/.cache/dein')
   call dein#begin('~/.config/nvim/.cache/dein')
 
- let s:toml_dir  = $HOME . '/.config/nvim/rc'
+ let s:toml_dir  = $HOME . '/.config/nvim/.cache/dein/repos/github.com/takkii/tenfile/rc'
  let s:toml      = s:toml_dir . '/dein.toml'
  let s:lazy_toml = s:toml_dir . '/dein_lazy.toml'
 

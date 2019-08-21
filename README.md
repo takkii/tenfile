@@ -2,7 +2,11 @@
 
 ```ruby
 
+cd .config/nvim/.cache/dein/repos/github.com/takkii
+
 git clone https://github.com/takkii/tenfile.git
+
+cd tenfile
 
 ruby install.rb
 
@@ -19,6 +23,15 @@ sh ./installer.sh ~/.cache/dein
 自前なので、他はPython3のPATHを変更
 
 let g:python3_host_prog='D:/Python3/python.exe'
+
+```
+
+dein.toml
+
+```markdown
+
+[[plugins]]
+repo = 'takkii/tenfile'
 
 ```
 
