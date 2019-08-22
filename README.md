@@ -4,6 +4,12 @@
 
 ```ruby
 
+公式サイトより設置PATH確認
+
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+
+sh ./installer.sh ~/.cache/dein
+
 cd .config/nvim/.cache/dein/repos/github.com/takkii
 
 git clone https://github.com/takkii/tenfile.git
@@ -16,15 +22,18 @@ init.vimを初期配置
 
 ~/AppData/Local/nvim/init.vim
 
-公式サイトより設置PATH確認
-
-curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
-
-sh ./installer.sh ~/.cache/dein
-
 自前なので、他はRuby26とPython3のPATHを変更
 
 let g:python3_host_prog='D:/Python3/python.exe'
+
+```
+
+```markdown
+
+iceberg (dein.toml)
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
 
 ```
 
