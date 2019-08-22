@@ -28,9 +28,9 @@ let g:python3_host_prog='D:/Python3/python.exe'
 
 ```
 
-```markdown
+colorscheme (dein.toml)
 
-iceberg (dein.toml)
+```markdown
 
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
