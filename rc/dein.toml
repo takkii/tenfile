@@ -51,3 +51,4 @@ on_ft = 'toml'
 
 [[plugins]]
 repo = 'vim-goby-syntax-highlighting'
+on_ft = 'gb'
