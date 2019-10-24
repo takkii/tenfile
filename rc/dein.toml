@@ -58,3 +58,4 @@ repo = 'cocopon/iceberg.vim'
 [[plugins]]
 repo = 'takkii/MinTab'
 rev = 'neovim'
+
