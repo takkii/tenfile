@@ -10,11 +10,14 @@ repo = 'Shougo/defx.nvim'
 repo = 'Shougo/denite.nvim'
 
 #[[plugins]]
-#repo = 'takkii/ruby-dictionary3'
+#repo = 'takkii/Bignyanco'
+
+[[plugins]]
+repo = 'takkii/ruby-dictionary3'
 #rev = 'b7db6ee'
 
-#[[plugins]]
-#repo = 'takkii/totolot'
+[[plugins]]
+repo = 'takkii/totolot'
 #rev = 'f1fd021'
 
 [[plugins]]
@@ -34,24 +37,24 @@ on_ft = ['ruby']
 [[plugins]]
 repo = 'thinca/vim-quickrun'
 
-[[plugins]]
-repo = 'ncm2/float-preview.nvim.git'
+#[[plugins]]
+#repo = 'ncm2/float-preview.nvim.git'
 
-[[plugins]]
-repo = 'fatih/vim-go'
-hook_add = '''
-  let g:go_fmt_command = "goimports"
-  let g:go_def_mapping_enabled = 0
-  let g:go_doc_keywordprg_enabled = 0
-'''
+#[[plugins]]
+#repo = 'fatih/vim-go'
+#hook_add = '''
+#  let g:go_fmt_command = "goimports"
+#  let g:go_def_mapping_enabled = 0
+#  let g:go_doc_keywordprg_enabled = 0
+#'''
 
 [[plugins]]
 repo  = 'cespare/vim-toml'
 on_ft = 'toml'
 
 [[plugins]]
-repo = 'vim-goby-syntax-highlighting'
-on_ft = 'gb'
+repo = 'cocopon/iceberg.vim'
 
 [[plugins]]
-repo = 'cocopon/iceberg.vim'
+repo = 'takkii/MinTab'
+rev = 'neovim'
