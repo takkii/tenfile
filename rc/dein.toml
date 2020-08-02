@@ -14,15 +14,19 @@ repo = 'Shougo/denite.nvim'
 
 [[plugins]]
 repo = 'takkii/ruby-dictionary3'
-#rev = 'b7db6ee'
 
 [[plugins]]
 repo = 'takkii/totolot'
-#rev = 'f1fd021'
 
 [[plugins]]
 repo = 'takkii/Jet-black-wings'
 build = 'ruby install.rb'
+
+[[plugins]]
+repo = 'takkii/MinTab'
+
+[[plugins]]
+repo = 'takkii/vim-com'
 
 [[plugins]]
 repo = 'w0rp/ale'
@@ -54,8 +58,3 @@ on_ft = 'toml'
 
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
-
-[[plugins]]
-repo = 'takkii/MinTab'
-rev = 'neovim'
-
