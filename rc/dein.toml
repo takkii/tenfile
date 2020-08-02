@@ -58,3 +58,6 @@ on_ft = 'toml'
 
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
+repo = 'kristijanhusak/defx-icons'
