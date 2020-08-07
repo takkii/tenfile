@@ -12,18 +12,20 @@ hook_source = '''
 on_i = 1
 
 [[plugins]]
-repo = 'Shougo/neosnippet'
+repo = 'Shougo/deoppet.nvim'
 hook_source = '''
-  imap <C-k> <Plug>(neosnippet_expand_or_jump)
-  smap <C-k> <Plug>(neosnippet_expand_or_jump)
-  xmap <C-k> <Plug>(neosnippet_expand_target)
-  if has('conceal')
-    set conceallevel=2 concealcursor=niv
-  endif
+  call deoppet#initialize()
+  call deoppet#custom#option('snippets_dirs',
+  \ globpath(&runtimepath, 'neosnippets', 1, 1))
+
+  imap <C-k>  <Plug>(deoppet_expand)
+  imap <C-f>  <Plug>(deoppet_jump_forward)
+  imap <C-b>  <Plug>(deoppet_jump_backward)
+  smap <C-f>  <Plug>(deoppet_jump_forward)
+  smap <C-b>  <Plug>(deoppet_jump_backward)
 '''
 on_i  = 1
 on_ft = ['snippet']
-depends = ['neosnippet-snippets']
 
 [[plugins]]
 repo = 'zchee/deoplete-go'
